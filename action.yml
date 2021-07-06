@@ -1,5 +1,5 @@
 name: 'my first container action'
-description 'ACG'
+description: 'ACG'
 author: 'Michael R'
 inputs:
   myInput:
