@@ -1,0 +1,14 @@
+name: 'my first container action'
+description 'ACG'
+author: 'Michael R'
+inputs:
+  myInput:
+    description: 'greeting to use'
+    require: true
+    default: 'Awesome G'
+outputs:
+  myOutput:
+    description: 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
